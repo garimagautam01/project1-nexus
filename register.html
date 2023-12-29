@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-wrapper">
+            <span class="logo">Sign Up</span>
+            <span class="title">Register</span>
+            <form  name='registration' onsubmit="return formValidation();">
+                <label for="usname"></label>
+                <input type="text" name="usname" size="12" placeholder="display name" />
+                <label for="email"></label>
+                <input type="email" name="email" size="50" placeholder="email" />
+                <label for="passid"></label>
+                <input type="password" name="passid" size="12" placeholder="password" />
+                <button><input style="padding: 0px; width: 0px;" type="submit" name="submit" value="Submit" >Submit</button>
+            </form>
+            <p>You do have an account? <a href="index.html"> Login </a> </p>
+        </div>
+    </div>
+</body>
+</html>
